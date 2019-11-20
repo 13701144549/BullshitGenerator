@@ -51,7 +51,7 @@ famous 是名人语录, 里面的关键字"a"和"b" 将分别被 before 和 afte
 
 ### 如何使用
 
-```
+```python
 from bullshit import generator
 content = generator("我爱Python")
 print(content)
@@ -71,7 +71,7 @@ print(content)
 
 指定内容长度
 
-```
+```python
 content = generator("我爱Python", length=1000)
 print(content)
 ```
